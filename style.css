@@ -79,16 +79,21 @@ p {
     text-decoration: line-through;
 }
 
-.card .contenido a {
+.card .contenido button {
     font-family: 'Montserrat',
         sans-serif;
+    border: none;
+    width: 100%;
     border-radius: 8px;
-    text-decoration: none;
     display: block;
     text-align: center;
     padding: 10px;
-    margin: 10px;
     color: white;
     background-color: hsl(158, 36%, 37%);
 
+}
+
+button span {
+    margin-left: 10px;
+    font-size: 16px;
 }
