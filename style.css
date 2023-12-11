@@ -1,0 +1,94 @@
+/* font-family: 'Montserrat',
+sans-serif;
+font-family: 'Fraunces',
+serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 375px;
+    display: flex;
+    background-color: hsl(30, 38%, 92%);
+    color: hsl(228, 12%, 48%);
+}
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    max-width: 375px;
+}
+
+.card {
+    width: 100%;
+    margin: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card .contenido {
+    padding: 28px;
+}
+
+p {
+    line-height: 1.5;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 15px;
+}
+
+.contenido h2 {
+    margin-bottom: 8px;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 14px;
+    letter-spacing: 5px;
+    font-weight: lighter;
+}
+
+.card .contenido h1 {
+    color: black;
+    margin-bottom: 16px;
+    font-family: 'Fraunces',
+        serif;
+}
+
+.precio {
+    font-family: 'Fraunces',
+        serif;
+    font-weight: bold;
+    font-size: xx-large;
+    color: hsl(158, 36%, 37%);
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+.descuento {
+    display: inline-block;
+    text-decoration: line-through;
+}
+
+.card .contenido a {
+    font-family: 'Montserrat',
+        sans-serif;
+    border-radius: 8px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+
+}
